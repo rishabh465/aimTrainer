@@ -24,8 +24,8 @@ LABEL_FONT = pygame.font.SysFont("arial", 24)
 class Target:
     MAX_SIZE = 30
     GROWTH_RATE = 0.2
-    COLOR = (255, 99, 71)
-    SECOND_COLOR = (255, 255, 255)
+    COLOR = (0, 255, 255)
+    SECOND_COLOR = (0, 200, 200)
 
     def __init__(self, x, y):
         self.x = x
